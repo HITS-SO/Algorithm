@@ -17,11 +17,5 @@ def solution(s, n):
                 else:
                     asci = ord(s[i]) + n
             answer += chr(asci)
-#             if ord(s[i])+n>ord('z'):
-#                 asci=ord(s[i])-26+n
-                
-#             else:
-#                 asci=ord(s[i])+n
-#             answer+=chr(asci)
     
     return answer
